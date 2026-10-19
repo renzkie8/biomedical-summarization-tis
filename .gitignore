@@ -1,0 +1,29 @@
+# Local credentials and personal configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Generated environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.ipynb_checkpoints/
+*.class
+build/
+dist/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+# Local data stores and trained artifacts
+*.db
+*.sqlite*
+*.h5
+*.keras
+*.pt
+*.pth
+training_checkpoints/

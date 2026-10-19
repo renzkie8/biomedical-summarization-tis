@@ -1,0 +1,17 @@
+numpy>=1.26
+spacy>=3.7
+# Core project dependencies for training and inference
+# Install when you are ready to run model fine-tuning or Hugging Face inference.
+pandas>=2.2
+scikit-learn>=1.5
+torch>=2.3
+transformers>=4.44
+datasets>=2.20
+evaluate>=0.4
+rouge-score>=0.1.2
+accelerate>=0.33
+sentencepiece>=0.2.0
+safetensors>=0.4.0
+
+# Optional: only needed if you want biomedical entity tools or advanced NLP checks.
+# scispacy>=0.5.4
